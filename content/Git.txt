@@ -1,0 +1,5 @@
+Git est un système de gestion de version de code largement utilisé par les développeurs, au sein d'une même équipe ou pour partager leur code au monde entier si souhaité.
+De nombreuses notions et commandes permettent de collaborer et faire vivre une même base de code applicatif.
+
+Je suis à l'aise avec GitLab, la notion de merge requests, de rebase ou encore de tag de versions.
+Je suis capable de créer un repository, de faire vivre une branche de code ou encore de naviguer entre les commits/versions pour poser un tag.

@@ -1,0 +1,6 @@
+Depuis mon entrée à Sopra Steria en 2020, j'ai officié au sein du projet Refonte BRHM (Phase 2) pour le compte d'EDF. 
+BRHM est une application EDF vieillissante permettant, entre autres, la gestion des entrées en centrale nucléaire.
+
+L'objectif du projet était donc de sortir cette fonctionnalité de BRHM afin qu'elle soit désormais remplie par deux applications plus légères, modernes et sécurisées : PASS et APS.
+
+Ce projet intense m'a permis de me familiariser avec de nombreuses technologies et aspects propres à un build informatique complexe au sein d'une équipe de 12 à 25 personnes.

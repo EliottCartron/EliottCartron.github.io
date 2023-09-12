@@ -1,0 +1,4 @@
+En tant que développeur, j'ai pu coder des fonctionnalités des applications allant du Front-End (Angular) jusqu'au Back-End (Java) en respectant des règles de gestion fonctionnelles fournies.
+Je suis capable d'utiliser Git pour garder mon code à jour et gérer mes merge requests.
+Je peux produire des analyses de code dans le cas d'anomalies remontées lors des tests et de corriger le cas échéant.
+Je m'améliore en continu en applicant les bonnes pratiques de code, de tests unitaires ainsi que les retours de mes responsables techniques.

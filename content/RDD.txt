@@ -1,0 +1,4 @@
+Le projet nécessitait une importante reprise des données existantes afin d'alimenter les nouvelles bases de données. 
+La RDD avait ses propres spécifications, ateliers métier, plans de tests et des développements et méthodes spécifiques.
+D'abord en équipe avec un fonctionnel, j'ai ensuite été en autonomie complète au bout d'une année sur ce "projet au sein du projet" qui en aura duré deux au total : 
+réalisation technique, écriture des tests et des spécifications, échanges avec le métier, jusqu'à la réalisation de la mise en production.

@@ -1,0 +1,5 @@
+Informatica Data Quality est un logiciel de gestion et de qualité de donnée (ETL) édité par la société Informatica. Son rival français le plus connu est Talend.
+Ce progiciel permet le transfert et la mise en qualité de la donnée d'une base de données à une autre ou au sein d'une même base.
+
+Je suis à l'aise avec les notions de mappings, de workflows et des différents type de transformation de la donnée au sein de ce logiciel ainsi que sa maintenance sur un environnement Linux.
+Je suis capable de gérer les bases de données avec Data Quality, de construire des mappings et workflows performants et d'opérer des transformations de données sur des grands volumes selon la spécification fournie.
