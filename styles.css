@@ -6,7 +6,7 @@ body {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
     margin-top: -10px;
     margin-bottom: -20px;
     margin-left: 20px;
@@ -14,7 +14,8 @@ body {
 }
 
 .header-texte {
-    font-size: 70%;
+    font-size: 60%;
+    margin-left: 10px;
 }
 
 i {
@@ -29,7 +30,7 @@ i {
 
 .nom-contact-flex {
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
     justify-content: space-around;
     align-items: center;
     margin-top: 20px
@@ -71,7 +72,7 @@ i {
     display: flex;
     justify-items: center;
     align-items: center;
-    font-size: medium;
+    font-size: 80%;
 }
 
 .comp-exp-flex {
@@ -84,7 +85,7 @@ i {
 .box-section-comp {
     border: 5px solid darkblue;
     border-radius: 30px;
-    width: 70%;
+    width: 90%;
 }
 
 .comp-list {
@@ -96,18 +97,6 @@ i {
     display: flex;
     flex-flow: row wrap;
     margin: 10px;
-}
-
-.comp-title {
-    display: flex;
-    justify-items: center;
-    align-items: center;
-    margin-left: 25px;
-    transition: transform .2s;
-}
-
-.comp-title:hover {
-    transform: scale(1.2);
 }
 
 .comp-title-java {
@@ -237,6 +226,7 @@ i {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.3s ease-out;
+    font-size: 80%;
 }
 
 .hover-comp-angular {
@@ -252,6 +242,7 @@ i {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.3s ease-out;
+    font-size: 80%;
 }
 
 .hover-comp-pg {
@@ -267,6 +258,7 @@ i {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.3s ease-out;
+    font-size: 80%;
 }
 
 .hover-comp-git {
@@ -282,6 +274,7 @@ i {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.3s ease-out;
+    font-size: 80%;
 }
 
 .hover-comp-idq {
@@ -298,12 +291,13 @@ i {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.3s ease-out;
+    font-size: 80%;
 }
 
 .box-section-exp {
     border: 5px solid darkblue;
     border-radius: 30px;
-    width: 70%;
+    width: 90%;
 }
 
 .exp-list {
@@ -336,6 +330,7 @@ i {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.3s ease-out;
+    font-size: 80%;
 }
 
 .exp-item-dev {
@@ -364,6 +359,7 @@ i {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.3s ease-out;
+    font-size: 80%;
 }
 
 .exp-item-rdd {
@@ -392,6 +388,7 @@ i {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.3s ease-out;
+    font-size: 80%;
 }
 
 .exp-item-fonc {
@@ -420,6 +417,7 @@ i {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.3s ease-out;
+    font-size: 80%;
 }
 
 .exp-item-gestion {
@@ -449,4 +447,5 @@ i {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.3s ease-out;
+    font-size: 80%;
 }
