@@ -311,10 +311,12 @@ i {
     align-items: center;
     margin-left: 10px;
     transition: transform .2s;
+    transform-origin: left center;
 }
 
 .exp-title-items:hover {
     transform: scale(1.03);
+    transform-origin: left center;
 }
 
 .hover-exp-title-items {
