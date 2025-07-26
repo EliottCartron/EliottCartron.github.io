@@ -1,0 +1,10 @@
+// Fix du background NGX qui ne s'étend pas sur tout l'écran en imposant le position: fixed
+:host ::ng-deep .om-aurora .om-aurora-background {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  pointer-events: none;
+}

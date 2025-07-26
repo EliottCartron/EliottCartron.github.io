@@ -1,0 +1,115 @@
+[
+  {
+    "id": 1,
+    "nom": "Sopra Steria Group",
+    "icone": {
+      "id": 11,
+      "nom": "SSG.svg",
+      "dossier": "employeurs",
+      "url": null
+    },
+    "periode": {
+      "moisDebut": "Novembre",
+      "anneeDebut": "2020",
+      "moisFin": null,
+      "AnneeFin": null
+    },
+    "description": "J'ai pu me reconvertir pour concevoir et développer des applications, gérer de l'infrastructure et intégrer l'applicatif (du build local jusqu'à la mise en production).",
+    "projets": [
+      {
+        "id": 101,
+        "nom": "EDF",
+        "icone": {
+          "id": 12,
+          "nom": "EDF.svg",
+          "dossier": "employeurs",
+          "url": null
+        },
+        "equipe": "SIRHM",
+        "periode": {
+          "moisDebut": "Novembre",
+          "anneeDebut": "2020",
+          "moisFin": "Mai",
+          "anneeFin": "2025"
+        },
+        "description": "Série d'applications interconnectées pour l'accès en centrale nucléaire",
+        "technosSpecifiques": [
+          {
+            "nom": "Jenkins",
+            "icone": {
+              "id": 13,
+              "nom": "Jenkins.svg",
+              "dossier": "technos",
+              "url": null
+            }
+          },
+          {
+            "nom": "Camunda",
+            "icone": {
+              "id": 14,
+              "nom": "Camunda.svg",
+              "dossier": "technos",
+              "url": null
+            }
+          },
+          {
+            "nom": "Informatica",
+            "icone": {
+              "id": 15,
+              "nom": "Informatica.svg",
+              "dossier": "technos",
+              "url": null
+            }
+          }
+        ]
+      },
+      {
+        "id": 102,
+        "nom": "EDF",
+        "icone": {
+          "id": 12,
+          "nom": "EDF.svg",
+          "dossier": "employeurs",
+          "url": null
+        },
+        "equipe": "DCN - SI Simulation",
+        "periode": {
+          "moisDebut": "Mai",
+          "anneeDebut": "2025",
+          "moisFin": null,
+          "anneeFin": null
+        },
+        "description": "Applicatif pour la gestion future du recyclage du combustible nucléaire",
+        "technosSpecifiques": [
+          {
+            "nom": "GitLab CI",
+            "icone": {
+              "id": 16,
+              "nom": "GitLab.svg",
+              "dossier": "technos",
+              "url": null
+            }
+          },
+          {
+            "nom": "Liquibase",
+            "icone": {
+              "id": 17,
+              "nom": "Liquibase.svg",
+              "dossier": "technos",
+              "url": null
+            }
+          },
+          {
+            "nom": "OpenAPI",
+            "icone": {
+              "id": 18,
+              "nom": "OpenAPI.svg",
+              "dossier": "technos",
+              "url": null
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

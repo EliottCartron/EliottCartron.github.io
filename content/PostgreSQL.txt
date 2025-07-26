@@ -1,5 +1,0 @@
-PostgreSQL est un système de gestion de base de données gratuit, complet et open-source largement utilisé de nos jours. 
-Il s'agit de l'alternative la plus crédible au géant Oracle (payant) pour les projets d'envergure.
-
-Je suis à l'aise avec la création de base de données, leur modification, leur alimentation, le chiffrement / hashage des données sensibles, la réplication des données (PGHD) et le SQL de manière générale.
-Je suis capable de mettre à jour la structure de la base en accord avec mon développement (Liquibase ou SQL), de récupérer les données utiles par une requête performante (JPQL ou SQL) ou encore de manipuler des dumps de données.

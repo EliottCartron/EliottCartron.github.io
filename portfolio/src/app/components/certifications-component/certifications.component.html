@@ -1,0 +1,14 @@
+<section id="certifications" class="section-component">
+
+  <div class="titre-section">Mes certifications</div>
+
+  <div class="ligne-techno">
+    @for (certif of certifs(); track certif.nom) {
+      <app-icone-component [icone]="certif.icone"
+                           [afficherNom]="true"
+                           [nomAffiche]="certif.nom"
+      />
+    }
+  </div>
+
+</section>

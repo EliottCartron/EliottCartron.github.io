@@ -1,4 +1,0 @@
-La gestion du chantier de reprise de données m'a très tôt plongé dans le fonctionnel du projet.
-En effet, j'ai eu à écrire de la spécification, des tests, à proposer des solutions au client sans doute plus tôt qu'un développeur débutant.
-J'ai également eu à écrire des tests applicatifs (JIRA XRAY) sur un périmètre précis voire à passer des tests.
-Cette approche m'aide à lier les aspects techniques et fonctionnels du projet, facilitant la communication testeur/développeur et fonctionnel/développeur.

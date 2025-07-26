@@ -1,0 +1,29 @@
+[
+  {
+    "nom": "eliott.cartron@orange.fr",
+    "icone": {
+      "id": 25,
+      "nom": "Email.svg",
+      "dossier": "contacts",
+      "url": "mailto:eliott.cartron@orange.fr"
+    }
+  },
+  {
+    "nom": "LinkedIn",
+    "icone": {
+      "id": 26,
+      "nom": "LinkedIn.svg",
+      "dossier": "contacts",
+      "url": "https://www.linkedin.com/in/eliott-cartron-72368515b/"
+    }
+  },
+  {
+    "nom": "GitHub",
+    "icone": {
+      "id": 27,
+      "nom": "GitHub.svg",
+      "dossier": "contacts",
+      "url": "https://github.com/EliottCartron"
+    }
+  }
+]
