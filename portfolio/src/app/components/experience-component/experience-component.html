@@ -1,0 +1,28 @@
+<section id="experience" class="section-component">
+
+  <div class="titre-section">Où je travaille</div>
+
+  @for (employeur of employeurs(); track employeur.id) {
+
+    <div class="employeur-titre">
+      <app-icone-component [icone]="employeur.icone"
+                           [afficherNom]="false"
+                           [nomAffiche]="employeur.nom"
+      />
+      <div class="employeur-libelle">
+        <h1>{{ employeur.nom }} - {{ employeur.periode | periode }} </h1>
+      </div>
+    </div>
+
+    <div class="employeur-description texte-secondaire">
+      {{ employeur.description }}
+    </div>
+
+    <div class="section-projet">
+      @for (projet of employeur.projets; track projet.id) {
+        <app-projet-component [projet]="projet"/>
+      }
+    </div>
+  }
+
+</section>

@@ -1,0 +1,52 @@
+.projet-titre {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.projet-libelle {
+  font-size: clamp(0.5rem, 2vw, 1rem);
+}
+
+.section-projet {
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  max-width: 700px;
+  width: 100%;
+  border-radius: 0.75rem;
+  transition: background-color 0.2s ease;
+}
+
+.section-projet:hover {
+  background-color: rgba(255, 255, 255, 0.04);
+}
+
+
+.ligne-techno {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-items: end;
+  align-items: start;
+}
+
+.techno-supp {
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+.ligne-techno-supp {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  margin-top: 0.5rem;
+}
+
+.icone-techno {
+  width: clamp(10px, 10vw, 96px);
+  height: clamp(60px, 7.5vh, 96px);
+}

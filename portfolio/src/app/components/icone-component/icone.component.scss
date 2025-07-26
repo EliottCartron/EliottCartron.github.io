@@ -1,0 +1,43 @@
+.icone-badge {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  gap: 0.5rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+
+  // Réglage de la taille et de l'effet incolore
+  img {
+    width: clamp(50px, 8vw, 96px);
+    height: clamp(50px, 8vw, 96px);
+    filter: grayscale(100%) brightness(0.8);
+    transition: filter 0.3s ease;
+  }
+
+  .img--small {
+    width: clamp(30px, 4vw, 48px);
+    height: clamp(30px, 4vw, 48px);
+  }
+
+  .nom-icone {
+    white-space: nowrap;
+    opacity: 0;
+    transform: translateY(5px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    font-size: clamp(0.5rem, 3vw, 1rem);
+    color: #ccd6f6;
+  }
+
+  // Remise à la couleur initiale
+  &:hover img {
+    filter: none;
+  }
+
+  &:hover .nom-icone {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

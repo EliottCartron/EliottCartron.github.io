@@ -1,0 +1,23 @@
+@if (icone().url) {
+  <a class="icone-badge" [href]="icone().url" [target]="`_blank`">
+    <img src="{{ buildSrc(icone().nom) }}"
+         [class.img]="true"
+         [class.img--small]="isSmaller()"
+         alt="{{ nomAffiche() }}"/>
+
+    @if (afficherNom()) {
+      <span class="nom-icone">{{ nomAffiche() }}</span>
+    }
+  </a>
+} @else {
+  <div class="icone-badge">
+    <img src="{{ buildSrc(icone().nom) }}"
+         [class.img]="true"
+         [class.img--small]="isSmaller()"
+         alt="{{ nomAffiche() }}"/>
+
+    @if (afficherNom()) {
+      <span class="nom-icone">{{ nomAffiche() }}</span>
+    }
+  </div>
+}

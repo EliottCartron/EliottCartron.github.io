@@ -1,0 +1,39 @@
+<div class="section-projet">
+  <div class="projet-titre">
+    <app-icone-component [icone]="projet().icone"
+                         [afficherNom]="false"
+                         [nomAffiche]="projet().nom"
+                         [isSmaller]="true"
+    />
+    <div>
+      <div class="projet-libelle">
+        {{ projet().nom }} - {{ projet().periode | periode }}
+      </div>
+      <div class="texte-secondaire projet-libelle">
+        {{ projet().equipe }} : {{ projet().description }}
+      </div>
+    </div>
+  </div>
+
+  <div class="ligne-techno projet-libelle">
+    <div class="texte-secondaire techno-supp">
+      Quelques technologies spécifiques :
+    </div>
+
+    <div class="ligne-techno-supp">
+
+      @for (techno of projet().technosSpecifiques; track techno.nom) {
+        <div class="icone-techno">
+          <app-icone-component [icone]="techno.icone"
+                               [afficherNom]="true"
+                               [nomAffiche]="techno.nom"
+                               [isSmaller]="true"
+          />
+        </div>
+      }
+    </div>
+  </div>
+
+
+</div>
+

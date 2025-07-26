@@ -1,0 +1,20 @@
+<section id="contact" class="section-component">
+
+  <div class="titre-section">Pour me contacter</div>
+
+  <div class="texte-secondaire description-contact">
+    Je ne suis pas à la recherche d'opportunité mais nous pouvons discuter !
+  </div>
+
+  <div class="ligne-contacts">
+    @for (contact of contacts(); track contact.nom) {
+      <div class="icone-contact">
+        <app-icone-component [icone]="contact.icone"
+                             [afficherNom]="true"
+                             [nomAffiche]="contact.nom"
+        />
+      </div>
+    }
+  </div>
+
+</section>

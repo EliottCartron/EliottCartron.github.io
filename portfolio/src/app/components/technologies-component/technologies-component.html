@@ -1,0 +1,14 @@
+<section id="technologies" class="section-component">
+
+  <div class="titre-section">Les technologies avec lesquelles je travaille</div>
+
+  <div class="ligne-techno">
+    @for (techno of technos(); track techno) {
+      <app-icone-component [icone]="techno.icone"
+                           [afficherNom]="true"
+                           [nomAffiche]="techno.nom"
+      />
+    }
+  </div>
+
+</section>

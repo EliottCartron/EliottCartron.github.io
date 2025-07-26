@@ -1,5 +1,0 @@
-Angular est un framework moderne de Front-End basé sur le langage TypeScript qui est lui-même issu de JavaScript. 
-Cette technologie est largement utilisée de nos jours pour créer des écrans (IHM) fluides et agréables pour l'utilisateur.
-
-Je suis à l'aise avec les notions de subscribe, de composant, d'HTML/CSS, de cycle de vie Angular et d'accessibilité.
-De l'interface utilisateur jusqu'à l'appel au Back-End, je suis capable de produire du code robuste qui soit plaisant et intuitif pour l'utilisateur.

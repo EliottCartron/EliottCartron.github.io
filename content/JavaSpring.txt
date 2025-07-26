@@ -1,5 +1,0 @@
-Java est l'un des langages de programation les plus utilisés au monde, dans l'industrie notamment. 
-Associé au framework Spring, il s'agit d'une technologie robuste et éprouvée, adaptée aux projets d'envergure.
-
-Je suis à l'aise avec les notions de Resource, Service et Repository, les batchs, les tests unitaires (Junit) ainsi que la grammaire Java en général.
-De l'API jusqu'à l'appel en base de données, je suis capable de coder une fonctionnalité Back-End en accord avec la spécification fournie en réalisant du code clair, commenté et centralisé/factorisé.
